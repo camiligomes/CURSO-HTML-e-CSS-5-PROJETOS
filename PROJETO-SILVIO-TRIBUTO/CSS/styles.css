@@ -16,3 +16,9 @@ html {
 .destaque {
 	font-weight: bold;
 }
+
+/* cabecalho */
+
+.cabecalho {
+	text-align: center;
+}
