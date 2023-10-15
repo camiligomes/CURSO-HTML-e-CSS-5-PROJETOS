@@ -22,3 +22,7 @@ html {
 .cabecalho {
 	text-align: center;
 }
+
+.titulo-principal {
+	font-size: 40px;
+}
