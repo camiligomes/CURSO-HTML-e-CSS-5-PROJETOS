@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="cabecalho-tlg">
     <nav id="navbar">
       <ul class="nav-list" id="social-bar">
         <li><a href="#">Gmail</a></li>
@@ -24,4 +24,21 @@
       </ul>
     </nav>
   </header>
+  <!--A tag main é onde colocamos todo o conteúdo central do site, melhor explicando: o post do site fica no main, a barra de navegação fica no header e o rodapé no footer -->
+  <main id="body">
+    <img src="/img/google_logo.png" alt="google logo">
+    <form action="">
+      <div id="input-box">
+        <input type="text" id="search-input" name="search">
+        <span class="lnr lnr-magnifier id=" search-icon"></span>
+        <span class="lnr lnr-keyboard id=" keyboard-icon"></span>
+        <span class="lnr lnr-mic id=" mic-icon"></span>
+      </div>
+
+      <div>
+        <input type="submit" name="btn-search" value="Pesquisa Google">
+        <input type="submit" name="btn-luck" value="Estou com sorte">
+      </div>
+    </form>
+  </main>
 </body>
