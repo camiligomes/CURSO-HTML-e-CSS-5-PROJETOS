@@ -1,3 +1,19 @@
-h1{
-    color: red;
-}
+/* Geral */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+  }
+  
+  /* Barra de navegação */
+  .cabecalho-tlg{
+    font-size: 15px; /*alteraçao minha, pq tava no tamanho errado*/
+  }
+  #navbar {
+    margin-top: 20px;
+  }
+  
+  .nav-list {
+    padding: 0 25px;
+  }
