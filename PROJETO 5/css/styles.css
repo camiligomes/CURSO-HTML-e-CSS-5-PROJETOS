@@ -1,3 +1,22 @@
-h1{
-    color: red;
+/*GERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
 }
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+#address-container, #form-container{
+    flex: 1 1 0;
+    height: 100%;
+    text-align: center;
+
+}
+
